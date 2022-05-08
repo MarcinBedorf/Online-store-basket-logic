@@ -50,7 +50,7 @@ const addProductToBasket = event => {
 
 const buyAllProducts = () => {
     const basketTotalValue = basket.getTotalValue();
-    alert(`Zakupiono produkty o wartości ${basketTotalValue.toFixed(2)}zł`);
+    alert(`${basketTotalValue.toFixed(2)}€ worth of products were purchased`);
     basket.clear();
     createBasketUi();
 };
